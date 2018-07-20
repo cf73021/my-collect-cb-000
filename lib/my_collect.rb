@@ -7,6 +7,6 @@ def my_collect(array)
   end
 end
 
-my_collect(items) do |item|
+my_collect(arary) do |item|
   item.upcase
 end
