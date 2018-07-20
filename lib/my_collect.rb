@@ -7,5 +7,5 @@ def my_collect(array)
 end
 
 my_collect(array) do |item|
-  item.split(" ")
+  item.split(" ").first
 end
